@@ -26,8 +26,10 @@
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
   "dependencies": {
-    "egg": "^2.6.1",
-    "egg-scripts": "^2.6.0"
+    "egg": "^2.26.0",
+    "egg-cors": "^2.2.3",
+    "egg-scripts": "^2.13.0",
+    "egg-view-nunjucks": "^2.2.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
