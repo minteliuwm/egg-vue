@@ -2,11 +2,11 @@
 
 set -e
 
-# 指定分支，默认为 QA 分支
+# 指定分支，默认为 develop 分支
 branch=$1
 if [ -z $branch ]
 then
-  branch=qa
+  branch=develop
 fi
 
 # 合并代码到 master 分支
